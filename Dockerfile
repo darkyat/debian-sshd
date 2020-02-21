@@ -1,7 +1,7 @@
 FROM debian:latest
 
 RUN apt-get update && \
-    apt-get install openssh-server sudo
+    apt-get install -y openssh-server sudo
 
 EXPOSE 22
 
