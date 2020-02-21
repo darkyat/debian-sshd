@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir -p /var/run/sshd
+mkdir -p /run/sshd
 
 ssh-keygen -f /etc/ssh/ssh_host_rsa_key -N '' -t rsa
 ssh-keygen -f /etc/ssh/ssh_host_ecdsa_key -N '' -t ecdsa
